@@ -2,6 +2,7 @@ function Ingredients(){
 
 }
 
+
 Ingredients.prototype.images = [
   {img: "images/ingredientes/aguacate.png"},
   {img: "images/ingredientes/banana.png"},

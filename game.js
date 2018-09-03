@@ -4,15 +4,16 @@ document.getElementById("pizza-btn").onclick = function () {
   link.href = 'game-scenario.css';
   document.head.appendChild(link);
 
-  var firstLink = document.createElement('link');
-  firstLink.rel = 'stylesheet';
-  firstLink.href = 'pizza.css';
-  document.head.appendChild(firstLink);
+  var secondLink = document.createElement('link');
+  secondLink.rel = 'stylesheet';
+  secondLink.href = 'pizza.css';
+  document.head.appendChild(secondLink);
 
   var pizza = new Pizza;
   var random = pizza.randomPizza();
-  console.log(random);
+  
   checkName();
+  setInterval(function(){showIngredients()},1000);
 
   function checkName() {
     if (random[0].name == "allin") {
@@ -42,8 +43,18 @@ document.getElementById("pizza-btn").onclick = function () {
     }
   }
 
-
-
+  function showIngredients() {
+    var ingredients = new Ingredients;
+    var randNum = Math.floor(Math.random()*ingredients.images.length); 
+    console.log(ingredients.images[randNum])
+    var randomIng = ingredients.images[randNum].img;
+    
+    var newIng = document.createElement('img');
+    newIng.className = "ingredients";
+    newIng.src = randomIng;
+    document.getElementById('ingre').appendChild(newIng); 
+    console.log("Diego no va a hacer nada en el Hack Show");
+  }
 };
 
 

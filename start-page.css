@@ -3,6 +3,7 @@
   padding:0;
 }
 
+
 .title{
   position: absolute;
   text-align: center;
@@ -11,9 +12,19 @@
   margin-left: 40%;
 }
 
-#all-in,#pepperoni,#veggie,#tuna,#diabola{ 
+#all-in,#pepperoni,#veggie,#tuna,#diabola{
+  position: absolute; 
+  width: 1%;
+  height: 1%;
   visibility: hidden;
+  
 }
+
+#all-in img,#pepperoni img,#veggie img,#tuna img,#diabola img{
+  width: 10px;
+  height: 10px;
+}
+
 
 
 
@@ -44,6 +55,7 @@
   height: 100vh;
 }
 
+
 .pizza-start{
   position: absolute;
   width: 300px;
@@ -61,4 +73,8 @@
 
 .cocinero{
   display: none;
+}
+
+.cinta{
+  display:none;
 }

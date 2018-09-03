@@ -38,6 +38,7 @@
 }
 
 .cinta{ 
+  display: inline-block;
   width: 100%; 
   height: 7%; 
   margin-top: 39%;
@@ -48,4 +49,17 @@
   background-repeat: repeat-x;
   animation: cinta 40s linear infinite;
 }
+ 
+.ingredients{
+  display: block;
+  width: 83px;
+  position: absolute;
+  margin-top: -45px;
+  margin-left: 15px;
+  animation-name: ingredients;
+  animation-duration: 10s;
+} 
 
+@keyframes ingredients{
+  to{margin-left:1600px;}
+} 
