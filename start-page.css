@@ -1,0 +1,64 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+.title{
+  position: absolute;
+  text-align: center;
+  color:white;
+  margin-top: 2%;
+  margin-left: 40%;
+}
+
+#all-in,#pepperoni,#veggie,#tuna,#diabola{ 
+  visibility: hidden;
+}
+
+
+
+.pizarra img{
+  position: absolute;
+    width: 445px;
+    height: 582px;
+    margin-top: 10%;
+    margin-left: 7%;
+
+}
+
+.pizarra p{
+  position: absolute;
+  text-align: center;
+  color: white;
+  margin-top: 19%;
+  margin-left: 9%;
+  font-size: 80px;
+}
+
+.game-page{
+  position: relative;
+  background-image: url("images/chicote-cuchillo.jpg");
+  background-repeat:no-repeat; 
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+.pizza-start{
+  position: absolute;
+  width: 300px;
+  margin-top: 43%;
+  margin-left: 41%;
+  animation-name: pizza-start;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes pizza-start{
+  100% {margin-top: 41%}
+}
+
+.cocinero{
+  display: none;
+}

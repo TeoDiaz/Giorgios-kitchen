@@ -1,0 +1,51 @@
+
+.title{
+  display:none;
+}
+
+.pizza-start{
+  display: none;
+}
+
+.pizarra img{
+  display:none;
+}
+
+.pizarra p{
+  display: none;
+}
+
+.game-page{
+  position: relative;
+  background-image: url("images/restaurante-5.jpg");
+  background-repeat:no-repeat; 
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+.cocinero{
+  display: inline-block;
+  width: 301px;
+  position: absolute;
+  margin-left: 589px;
+  margin-top: 237px;
+}
+
+@keyframes cinta{
+  from { background-position: 0 0; }
+  to { background-position: 100% 0; }
+}
+
+.cinta{ 
+  width: 100%; 
+  height: 7%; 
+  margin-top: 39%;
+  position: absolute;
+  background-size: 5%;
+  background-image: url("images/chapa-1.jpg");
+  background-position: 0px 0px;
+  background-repeat: repeat-x;
+  animation: cinta 40s linear infinite;
+}
+

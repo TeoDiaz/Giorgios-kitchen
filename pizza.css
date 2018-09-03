@@ -1,0 +1,95 @@
+#all-in{
+  visibility: hidden;
+  position: absolute;
+  text-align: center;
+  color: white;
+  margin-top: 8%;
+  margin-left: 2%;
+  font-size: 30px;
+}
+
+#all-in h3{
+  font-size: 50px;
+}
+
+#all-in img{
+  display: inline-block;
+  width: 40px;
+}
+
+#pepperoni{
+  visibility: hidden;
+  position: absolute;
+  text-align: center;
+  color: white;
+  margin-top: 8%;
+  margin-left: 2%;
+  font-size: 30px;
+}
+
+#pepperoni h3{
+  font-size: 50px;
+}
+
+#pepperoni img{
+  display: inline-block;
+  width: 40px;
+}
+
+#veggie{
+  visibility: hidden;
+  position: absolute;
+  text-align: center;
+  color: white;
+  margin-top: 8%;
+  margin-left: 2%;
+  font-size: 30px;
+}
+
+#veggie h3{
+  font-size: 50px;
+}
+
+#veggie img{
+  display: inline-block;
+  width: 40px;
+}
+
+#tuna{
+  visibility: hidden;
+  position: absolute;
+  text-align: center;
+  color: white;
+  margin-top: 8%;
+  margin-left: 2%;
+  font-size: 30px;
+}
+
+#tuna h3{
+  font-size: 50px;
+}
+
+#tuna img{
+  display: inline-block;
+  width: 40px;
+}
+
+#diabola{
+  visibility: hidden;
+  position: absolute;
+  text-align: center;
+  color: white;
+  margin-top: 8%;
+  margin-left: 2%;
+  font-size: 30px;
+}
+
+#diabola h3{
+  font-size: 50px;
+}
+
+#diabola img{
+  display: inline-block;
+  width: 40px;
+}
+
