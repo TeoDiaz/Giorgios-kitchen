@@ -32,6 +32,18 @@
   margin-top: 237px;
 }
 
+.caja-pizza{
+  display: inline-block;
+  width: 301px;
+  position: absolute;
+  margin-left: 900px;
+  margin-top: 394px;
+}
+
+.caja-pizza img{
+  width: 370px;
+}
+
 @keyframes cinta{
   from { background-position: 0 0; }
   to { background-position: 100% 0; }
@@ -47,7 +59,7 @@
   background-image: url("images/chapa-1.jpg");
   background-position: 0px 0px;
   background-repeat: repeat-x;
-  animation: cinta 40s linear infinite;
+  animation: cinta 20s linear infinite;
 }
  
 .ingredients{
@@ -56,10 +68,14 @@
   position: absolute;
   margin-top: -45px;
   margin-left: 15px;
-  animation-name: ingredients;
-  animation-duration: 10s;
+  animation-duration: 20s;
+  cursor: move;
+  animation: ingredients 10s linear;
 } 
 
 @keyframes ingredients{
   to{margin-left:1600px;}
 } 
+
+
+

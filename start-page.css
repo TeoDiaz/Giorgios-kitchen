@@ -65,6 +65,7 @@
   animation-duration: 0.5s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
+  cursor: move;
 }
 
 @keyframes pizza-start{
@@ -72,6 +73,10 @@
 }
 
 .cocinero{
+  display: none;
+}
+
+.caja-pizza{
   display: none;
 }
 
