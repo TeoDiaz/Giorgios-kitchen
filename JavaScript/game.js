@@ -7,56 +7,51 @@ window.onload = function() {
 
     var takePizza = arrPizzas[Math.floor(Math.random() * arrPizzas.length)];
     console.log(takePizza);
-    $("#"+takePizza[0]).attr("style", "visibility: visible")
-    
-    setInterval(function() {;
-      }, 800);
-      var count = 0;
+    $("#" + takePizza[0]).attr("style", "visibility: visible");
 
-   
+    setInterval(function() {
+      printRandomImg();
+    }, 800);
+    var count = 0;
 
-      makeDesappear();
+    function printRandomImg() {
+      var num = Math.floor(Math.random() * ingredients.length);
+      var img = $("<img>")
+        .attr({
+          class: "ingredients",
+          id: ingredients[num],
+          src: randomIng(ingredients[num])
+        })
+        .appendTo("#ingre");
+      count++;
+
       removeIngr();
-    
-    var ingArray = [
-      "queso",
-      "tocino",
-      "pepperoni",
-      "manzana",
-      "tomate",
-      "pimienta",
-      "seta",
-      "piña",
-      "pescado",
-      "zanahoria"
-    ];
+      makeDesappear();
+    }
+
+    function randomIng(ele) {
+      return getImageFromIngredient(ele);
+    }
+
+    function removeIngr() {
+      if (count == 5) {
+        $("#ingre img:first").remove();
+        count = 2;
+      }
+    }
     var selectedIngr = [];
     function makeDesappear() {
       var elemClick = $(".ingredients:hover").click(function() {
-        var imgSrc = $(elemClick).attr("src");
-        for (var i = 0; i < ingArray.length; i++) {
-          if (imgSrc.includes(ingArray[i])) {
-            $(".ingre-" + ingArray[i]).addClass("visible");
+        var imgId = $(elemClick).attr("id");
+        for (var i = 0; i < takePizza.length; i++) {
+          if (takePizza.includes(imgId)) {
+            $(".ingre-" + imgId).addClass("visible");
             $(elemClick).remove();
-            selectedIngr.push(ingArray[i]);
+            selectedIngr.push(imgId);
             console.log(selectedIngr);
           }
         }
       });
     }
-    function removeIngr() {
-      if (count == 5) {
-        $("#ingre img:first").remove();
-        count = 3;
-      }
-    }
-    // function checkName() {
-    //   for (i = 0; i < pizza.takePizza.length; i++) {
-    //     if (randomPizza[0].name == pizza.takePizza[i][0].name) {
-    //       document.getElementById(pizza.takePizza[i][0].name).style.visibility =
-    //         "visible";
-    //     }
-    //   }
-    // }
   });
 };
