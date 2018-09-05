@@ -12,7 +12,7 @@ window.onload = function () {
     document.head.appendChild(secondLink);
 
     var pizza = new Pizza;
-    var random = pizza.randomPizza();
+    var randomPizza = pizza.randomPizza();
 
     checkName();
     setInterval(function () { showIngredients() }, 800);
@@ -32,29 +32,34 @@ window.onload = function () {
         $('#ingre').append(newIng);
         count++;
       }
+      
       makeDesappear();
       removeIngr();
     }
-
+    var ingArray = ["queso","tocino","pepperoni","manzana","tomate","pimienta","seta","piña","pescado","limon","zanahoria"];
     function makeDesappear() {
-      elemClick = $(".ingredients:hover").click(function (e) {
-        console.log($(elemClick).attr('src'));
-        
-        
+      var elemClick = $(".ingredients:hover").click(function () {
+      var imgSrc = $(elemClick).attr('src');
+      for(var i = 0; i<ingArray.length;i++){
+        if(imgSrc.includes(ingArray[i])){
+          console.log(ingArray[i]);
+          $(".ingre-"+ingArray[i]).addClass("visible");
+        }
+      }
         $(elemClick).remove();
+
       })
     }
     function removeIngr() {
       if (count == 5) {
         $("#ingre img:first").remove();
-        count = 2;
+        count = 3;
       }
     }
     function checkName() {
     
       for (i = 0; i < pizza.takePizza.length; i++) {
-        console.log(pizza.takePizza[i][0].name)
-        if (random[0].name == pizza.takePizza[i][0].name) {
+        if (randomPizza[0].name == pizza.takePizza[i][0].name) {
           document.getElementById(pizza.takePizza[i][0].name).style.visibility = "visible";
         }
       }

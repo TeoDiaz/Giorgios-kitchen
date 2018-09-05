@@ -46,7 +46,22 @@
 
 .caja-pizza img{
   width: 370px;
-  
+}
+
+.ingre-queso{
+  visibility: hidden;
+  width: 71px;
+  margin-top: -121px;
+  position: absolute;
+  margin-left: 100px;
+}
+
+.ingre-tomate{
+  visibility: hidden;
+  width: 71px;
+  margin-top: -121px;
+  position: absolute;
+  margin-left: 110px;
 }
 
 @keyframes cinta{
@@ -74,7 +89,7 @@
   margin-top: -45px;
   margin-left: 15px;
   cursor: move;
-  animation: ingredients 8s linear infinite;
+  animation: ingredients 8s linear  normal forwards;
 } 
 
 .ingredients:hover{
@@ -82,9 +97,24 @@
 }
 
 @keyframes ingredients{
-  to{margin-left:1600px;}
+  to{margin-left:1700px;}
 } 
 
+.ingre-queso.visible{
+  visibility: visible;
+  width: 71px;
+  margin-top: -121￼px;
+  position: absolute;
+  margin-left: 100px;
+}
+
+.ingre-tomate.visible{
+  visibility: visible;
+  width: 71px;
+  margin-top: -121￼px;
+  position: absolute;
+  margin-left: 110px;
+}
 
 
 
