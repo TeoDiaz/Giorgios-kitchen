@@ -4,7 +4,7 @@ window.onload = function () {
     link.rel = 'stylesheet';
     link.href = 'game-scenario.css';
     document.head.appendChild(link);
-
+    
     var secondLink = document.createElement('link');
     secondLink.rel = 'stylesheet';
     secondLink.href = 'pizza.css';
@@ -14,7 +14,7 @@ window.onload = function () {
     var random = pizza.randomPizza();
 
     checkName();
-    setInterval(function () { showIngredients() }, 1000);
+    setInterval(function () { showIngredients() }, 800);
     var count = 0;
 
     function checkName() {
@@ -47,24 +47,33 @@ window.onload = function () {
     function showIngredients() {
       var ingredients = new Ingredients;
       var randNum = Math.floor(Math.random() * ingredients.images.length);
-      console.log(ingredients.images[randNum])
       var randomIng = ingredients.images[randNum].img;
 
       var newIng = document.createElement('img');
       $(newIng).addClass("ingredients");
       newIng.src = randomIng;
-      newIng.setAttribute("id", "ingr-img");
-
-
+      newIng.setAttribute("id", "img-ing");
+      
+      var numIng = Math.floor(Math.random()*(4-1)+1);
+      if(numIng == 2){
       $('#ingre').append(newIng);
-
       count++;
-
-      if (count == 10) {
-        $("#ingre img:first").remove();
-        count = 9;
       }
-      console.log(count);
+
+      removeIngr();
     }
+    
+    function makeDesappear(){
+
+    }
+
+    function removeIngr(){
+      if (count == 3) {
+        $("#ingre img:first").remove();
+        count = 1;
+    }
+  }
   });
+  
+  
 }

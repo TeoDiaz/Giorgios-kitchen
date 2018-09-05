@@ -15,6 +15,10 @@
   display: none;
 }
 
+.pizarra ul{
+  display: none;
+}
+
 .game-page{
   position: relative;
   background-image: url("images/restaurante-5.jpg");
@@ -42,6 +46,7 @@
 
 .caja-pizza img{
   width: 370px;
+  
 }
 
 @keyframes cinta{
@@ -59,7 +64,7 @@
   background-image: url("images/chapa-1.jpg");
   background-position: 0px 0px;
   background-repeat: repeat-x;
-  animation: cinta 20s linear infinite;
+  animation: cinta 11s linear infinite;
 }
  
 .ingredients{
@@ -68,14 +73,14 @@
   position: absolute;
   margin-top: -45px;
   margin-left: 15px;
-  animation-duration: 20s;
   cursor: move;
-  animation: ingredients 10s linear;
+  animation: ingredients 8s linear infinite;
 } 
 
 @keyframes ingredients{
   to{margin-left:1600px;}
 } 
+
 
 
 
