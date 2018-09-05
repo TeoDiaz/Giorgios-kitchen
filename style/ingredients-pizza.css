@@ -1,0 +1,84 @@
+.caja-pizza{
+  display: inline-block;
+  visibility: visible;
+  width: 301px;
+  position: absolute;
+  margin-left: 900px;
+  margin-top: 394px;
+  width: 370px;
+}
+
+.ingre-queso, .ingre-tomate,.ingre-zanahoria,.ingre-piña,.ingre-seta,.ingre-pimienta,.ingre-manzana,.ingre-tocino,.ingre-pepperoni,.ingre-pescado{
+  visibility: hidden;
+  width: 71px;
+  margin-top: 560px;
+  position: absolute;
+  margin-left: 980px;
+}
+
+.ingre-queso.visible{
+  visibility: visible;
+ 
+}
+
+.ingre-tomate.visible{
+  visibility: visible;
+  margin-top: 510px;
+  margin-left: 990px;
+}
+
+.ingre-zanahoria.visible{
+  visibility: visible;
+  width: 71px;
+  margin-top: 515px;
+  position: absolute;
+  margin-left: 1060px;
+}
+
+.ingre-piña.visible{
+  visibility: visible;
+  width: 71px;
+  margin-top: 520￼px;
+  position: absolute;
+  margin-left: 1150px;
+}
+
+.ingre-seta.visible{
+  visibility: visible;
+  width: 71px;
+  margin-top: 520￼px;
+  position: absolute;
+  margin-left: 1050px;
+}
+
+.ingre-pimienta.visible{
+  visibility: visible;
+  width: 71px;
+  margin-top: 500px;
+  position: absolute;
+  margin-left: 1300px;
+}
+
+.ingre-manzana.visible{
+  visibility: visible;
+  width: 71px;
+  margin-top: 550px;
+  position: absolute;
+  margin-left: 1035px;
+}
+
+.ingre-tocino.visible{
+  visibility: visible;
+  width: 71px;
+  margin-top: 520￼px;
+  position: absolute;
+  margin-left: 1100px;
+}
+
+.ingre-pepperoni.visible{
+  visibility: visible;
+  width: 71px;
+  margin-top: 530￼px;
+  position: absolute;
+  margin-left: 1400px;
+}

@@ -53,8 +53,12 @@
   color: white;
   font-size: 29px;
   position: absolute;
-  margin-top: 487px;
+  margin-top: 350px;
   margin-left: 169px;
+}
+
+.pizarra li{
+  padding-bottom: 44px;
 }
 
 .game-page{
@@ -87,7 +91,7 @@
 }
 
 .caja-pizza{
-  display: none;
+  visibility: hidden;
 }
 
 .cinta{

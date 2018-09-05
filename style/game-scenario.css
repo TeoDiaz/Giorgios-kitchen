@@ -19,6 +19,10 @@
   display: none;
 }
 
+.caja-pizza{
+  visibility: visible;
+}
+
 .game-page{
   position: relative;
   background-image: url("../images/restaurante-5.jpg");
@@ -36,38 +40,7 @@
   margin-top: 237px;
 }
 
-.caja-pizza{
-  display: inline-block;
-  width: 301px;
-  position: absolute;
-  margin-left: 900px;
-  margin-top: 394px;
-}
 
-.caja-pizza img{
-  width: 370px;
-}
-
-.ingre-queso{
-  visibility: hidden;
-  width: 71px;
-  margin-top: -121px;
-  position: absolute;
-  margin-left: 100px;
-}
-
-.ingre-tomate{
-  visibility: hidden;
-  width: 71px;
-  margin-top: -121px;
-  position: absolute;
-  margin-left: 110px;
-}
-
-@keyframes cinta{
-  from { background-position: 0 0; }
-  to { background-position: 100% 0; }
-}
 
 .cinta{ 
   display: inline-block;
@@ -80,6 +53,11 @@
   background-position: 0px 0px;
   background-repeat: repeat-x;
   animation: cinta 11s linear infinite;
+}
+
+@keyframes cinta{
+  from { background-position: 0 0; }
+  to { background-position: 100% 0; }
 }
  
 .ingredients{
@@ -100,21 +78,10 @@
   to{margin-left:1700px;}
 } 
 
-.ingre-queso.visible{
-  visibility: visible;
-  width: 71px;
-  margin-top: -121￼px;
-  position: absolute;
-  margin-left: 100px;
-}
 
-.ingre-tomate.visible{
-  visibility: visible;
-  width: 71px;
-  margin-top: -121￼px;
-  position: absolute;
-  margin-left: 110px;
-}
+
+
+
 
 
 

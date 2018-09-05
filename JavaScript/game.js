@@ -36,17 +36,20 @@ window.onload = function () {
       makeDesappear();
       removeIngr();
     }
-    var ingArray = ["queso","tocino","pepperoni","manzana","tomate","pimienta","seta","piña","pescado","limon","zanahoria"];
+    var ingArray = ["queso","tocino","pepperoni","manzana","tomate","pimienta","seta","piña","pescado","zanahoria"];
+    var selectedIngr = [];
     function makeDesappear() {
-      var elemClick = $(".ingredients:hover").click(function () {
+      var elemClick = $(".ingredients:hover").click(function() {
       var imgSrc = $(elemClick).attr('src');
       for(var i = 0; i<ingArray.length;i++){
         if(imgSrc.includes(ingArray[i])){
-          console.log(ingArray[i]);
           $(".ingre-"+ingArray[i]).addClass("visible");
+          $(elemClick).remove();
+          selectedIngr.push(ingArray[i]);
+          console.log(selectedIngr);
         }
       }
-        $(elemClick).remove();
+        
 
       })
     }
