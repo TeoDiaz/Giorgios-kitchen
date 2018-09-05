@@ -1,9 +1,5 @@
-function Ingredients(){
 
-}
-
-
-Ingredients.prototype.images = [
+var images = [
   {img: "images/ingredientes/aguacate.png"},
   {img: "images/ingredientes/banana.png"},
   {img: "images/ingredientes/banana22.png"},

@@ -1,20 +1,22 @@
+h3 {
+  font-size:60px;
+  margin-top: 10px;
+}
+
 #all-in{
   visibility: hidden;
   position: absolute;
   text-align: center;
   color: white;
-  margin-top: 8%;
-  margin-left: 2%;
+  margin-top: 5%;
   font-size: 30px;
-}
-
-#all-in h3{
-  font-size: 50px;
 }
 
 #all-in img{
   display: inline-block;
-  width: 40px;
+  width: 50px;
+  height: 50px;
+  padding-top: 20px;
 }
 
 #pepperoni{
@@ -22,18 +24,16 @@
   position: absolute;
   text-align: center;
   color: white;
-  margin-top: 8%;
-  margin-left: 2%;
+  margin-top: 5%;
   font-size: 30px;
 }
 
-#pepperoni h3{
-  font-size: 50px;
-}
 
 #pepperoni img{
   display: inline-block;
-  width: 40px;
+  width: 50px;
+  height: 50px;
+  padding-top: 20px;
 }
 
 #veggie{
@@ -41,18 +41,16 @@
   position: absolute;
   text-align: center;
   color: white;
-  margin-top: 8%;
-  margin-left: 2%;
+  margin-top: 5%;
   font-size: 30px;
 }
 
-#veggie h3{
-  font-size: 50px;
-}
 
 #veggie img{
   display: inline-block;
-  width: 40px;
+  width: 50px;
+  height: 50px;
+  padding-top: 20px;
 }
 
 #tuna{
@@ -60,18 +58,15 @@
   position: absolute;
   text-align: center;
   color: white;
-  margin-top: 8%;
-  margin-left: 2%;
+  margin-top: 5%;
   font-size: 30px;
-}
-
-#tuna h3{
-  font-size: 50px;
 }
 
 #tuna img{
   display: inline-block;
-  width: 40px;
+  width: 50px;
+  height: 50px;
+  padding-top: 20px;
 }
 
 #diabola{
@@ -79,17 +74,15 @@
   position: absolute;
   text-align: center;
   color: white;
-  margin-top: 8%;
-  margin-left: 2%;
+  margin-top: 5%;
   font-size: 30px;
 }
 
-#diabola h3{
-  font-size: 50px;
-}
 
 #diabola img{
   display: inline-block;
-  width: 40px;
+  width: 50px;
+  height: 50px;
+  padding-top: 20px;
 }
 

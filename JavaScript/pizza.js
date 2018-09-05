@@ -1,11 +1,11 @@
 function Pizza (){
+  this.takePizza = [this.pepperoni, this.diabola, this.tuna, this.allin, this.veggie];
 }
 
 Pizza.prototype.takePizza = [this.pepperoni, this.diabola, this.atun, this.allIn, this.veggie];
 
 Pizza.prototype.randomPizza = function(){
-  var takePizza = [this.pepperoni, this.diabola, this.tuna, this.allin, this.veggie];
-  return takePizza[Math.floor(Math.random() * takePizza.length)]
+  return this.takePizza[Math.floor(Math.random() * this.takePizza.length)]
 }
 
 Pizza.prototype.pepperoni = [
@@ -46,7 +46,7 @@ Pizza.prototype.veggie = [
 ];
 
 Pizza.prototype.allin = [
-  { name: "allin" },
+  { name: "all-in" },
   { name: "cheese", img: "images/ingredients/queso.png" },
   { name: "pepperoni", img: "images/ingredients/pepperoni.png" },
   { name: "tomate", img: "images/ingredients/tomate.png" },

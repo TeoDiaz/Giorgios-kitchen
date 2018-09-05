@@ -21,7 +21,7 @@
 
 .game-page{
   position: relative;
-  background-image: url("images/restaurante-5.jpg");
+  background-image: url("../images/restaurante-5.jpg");
   background-repeat:no-repeat; 
   background-size: cover;
   width: 100vw;
@@ -61,7 +61,7 @@
   margin-top: 39%;
   position: absolute;
   background-size: 5%;
-  background-image: url("images/chapa-1.jpg");
+  background-image: url("../images/chapa-1.jpg");
   background-position: 0px 0px;
   background-repeat: repeat-x;
   animation: cinta 11s linear infinite;
@@ -76,6 +76,10 @@
   cursor: move;
   animation: ingredients 8s linear infinite;
 } 
+
+.ingredients:hover{
+  width:140px;
+}
 
 @keyframes ingredients{
   to{margin-left:1600px;}

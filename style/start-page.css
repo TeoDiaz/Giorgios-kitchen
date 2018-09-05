@@ -14,7 +14,7 @@
 
 #all-in,#pepperoni,#veggie,#tuna,#diabola{
   position: absolute; 
-  width: 1%;
+  width: 17%;
   height: 1%;
   visibility: hidden;
   
@@ -59,7 +59,7 @@
 
 .game-page{
   position: relative;
-  background-image: url("images/chicote-cuchillo.jpg");
+  background-image: url("../images/chicote-cuchillo.jpg");
   background-repeat:no-repeat; 
   background-size: cover;
   width: 100vw;
