@@ -1,9 +1,9 @@
 h3 {
-  font-size:60px;
+  font-size: 60px;
   margin-top: 10px;
 }
 
-#all-in{
+#tocino {
   visibility: hidden;
   position: absolute;
   text-align: center;
@@ -12,14 +12,14 @@ h3 {
   font-size: 30px;
 }
 
-#all-in img{
+#tocino img {
   display: inline-block;
   width: 50px;
   height: 50px;
   padding-top: 20px;
 }
 
-#pepperoni{
+#pepperoni {
   visibility: hidden;
   position: absolute;
   text-align: center;
@@ -28,15 +28,14 @@ h3 {
   font-size: 30px;
 }
 
-
-#pepperoni img{
+#pepperoni img {
   display: inline-block;
   width: 50px;
   height: 50px;
   padding-top: 20px;
 }
 
-#veggie{
+#seta {
   visibility: hidden;
   position: absolute;
   text-align: center;
@@ -45,15 +44,14 @@ h3 {
   font-size: 30px;
 }
 
-
-#veggie img{
+#seta img {
   display: inline-block;
-  width: 50px;
+  width: 45px;
   height: 50px;
   padding-top: 20px;
 }
 
-#tuna{
+#pescado {
   visibility: hidden;
   position: absolute;
   text-align: center;
@@ -62,14 +60,14 @@ h3 {
   font-size: 30px;
 }
 
-#tuna img{
+#pescado img {
   display: inline-block;
   width: 50px;
   height: 50px;
   padding-top: 20px;
 }
 
-#diabola{
+#queso {
   visibility: hidden;
   position: absolute;
   text-align: center;
@@ -78,11 +76,9 @@ h3 {
   font-size: 30px;
 }
 
-
-#diabola img{
+#queso img {
   display: inline-block;
   width: 50px;
   height: 50px;
   padding-top: 20px;
 }
-

@@ -1,4 +1,4 @@
-.caja-pizza{
+.caja-pizza {
   display: inline-block;
   visibility: visible;
   width: 301px;
@@ -8,7 +8,16 @@
   width: 370px;
 }
 
-.ingre-queso, .ingre-tomate,.ingre-zanahoria,.ingre-piña,.ingre-seta,.ingre-pimienta,.ingre-manzana,.ingre-tocino,.ingre-pepperoni,.ingre-pescado{
+.ingre-queso,
+.ingre-tomate,
+.ingre-zanahoria,
+.ingre-piña,
+.ingre-seta,
+.ingre-pimienta,
+.ingre-manzana,
+.ingre-tocino,
+.ingre-pepperoni,
+.ingre-pescado {
   visibility: hidden;
   width: 71px;
   margin-top: 560px;
@@ -16,18 +25,17 @@
   margin-left: 980px;
 }
 
-.ingre-queso.visible{
+.ingre-queso.visible {
   visibility: visible;
- 
 }
 
-.ingre-tomate.visible{
+.ingre-tomate.visible {
   visibility: visible;
   margin-top: 510px;
   margin-left: 990px;
 }
 
-.ingre-zanahoria.visible{
+.ingre-zanahoria.visible {
   visibility: visible;
   width: 71px;
   margin-top: 515px;
@@ -35,7 +43,7 @@
   margin-left: 1060px;
 }
 
-.ingre-piña.visible{
+.ingre-piña.visible {
   visibility: visible;
   width: 71px;
   margin-top: 520￼px;
@@ -43,7 +51,7 @@
   margin-left: 1150px;
 }
 
-.ingre-seta.visible{
+.ingre-seta.visible {
   visibility: visible;
   width: 71px;
   margin-top: 520￼px;
@@ -51,23 +59,23 @@
   margin-left: 1050px;
 }
 
-.ingre-pimienta.visible{
+.ingre-pimienta.visible {
   visibility: visible;
   width: 71px;
   margin-top: 500px;
   position: absolute;
-  margin-left: 1300px;
+  margin-left: 1135px;
 }
 
-.ingre-manzana.visible{
+.ingre-manzana.visible {
   visibility: visible;
   width: 71px;
-  margin-top: 550px;
+  margin-top: 491px;
   position: absolute;
-  margin-left: 1035px;
+  margin-left: 1122px;
 }
 
-.ingre-tocino.visible{
+.ingre-tocino.visible {
   visibility: visible;
   width: 71px;
   margin-top: 520￼px;
@@ -75,10 +83,18 @@
   margin-left: 1100px;
 }
 
-.ingre-pepperoni.visible{
+.ingre-pepperoni.visible {
   visibility: visible;
   width: 71px;
   margin-top: 530￼px;
   position: absolute;
   margin-left: 1400px;
+}
+
+.ingre-pescado.visible {
+  visibility: visible;
+  width: 71px;
+  margin-top: 480￼px;
+  position: absolute;
+  margin-left: 1300px;
 }

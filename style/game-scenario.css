@@ -1,38 +1,37 @@
-
-.title{
-  display:none;
-}
-
-.pizza-start{
+.title {
   display: none;
 }
 
-.pizarra img{
-  display:none;
-}
-
-.pizarra p{
+.pizza-start {
   display: none;
 }
 
-.pizarra ul{
+.pizarra img {
   display: none;
 }
 
-.caja-pizza{
+.pizarra p {
+  display: none;
+}
+
+.pizarra ul {
+  display: none;
+}
+
+.caja-pizza {
   visibility: visible;
 }
 
-.game-page{
+.game-page {
   position: relative;
   background-image: url("../images/restaurante-5.jpg");
-  background-repeat:no-repeat; 
+  background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
   height: 100vh;
 }
 
-.cocinero{
+.cocinero {
   display: inline-block;
   width: 301px;
   position: absolute;
@@ -40,12 +39,10 @@
   margin-top: 237px;
 }
 
-
-
-.cinta{ 
+.cinta {
   display: inline-block;
-  width: 100%; 
-  height: 7%; 
+  width: 100%;
+  height: 7%;
   margin-top: 39%;
   position: absolute;
   background-size: 5%;
@@ -55,33 +52,40 @@
   animation: cinta 11s linear infinite;
 }
 
-@keyframes cinta{
-  from { background-position: 0 0; }
-  to { background-position: 100% 0; }
+@keyframes cinta {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 0;
+  }
 }
- 
-.ingredients{
+
+.ingredients {
   display: block;
   width: 83px;
   position: absolute;
   margin-top: -45px;
   margin-left: 15px;
   cursor: move;
-  animation: ingredients 8s linear  normal forwards;
-} 
-
-.ingredients:hover{
-  width:140px;
+  animation: ingredients 8s linear normal forwards;
 }
 
-@keyframes ingredients{
-  to{margin-left:1700px;}
-} 
+.ingredients:hover {
+  width: 140px;
+}
 
+@keyframes ingredients {
+  to {
+    margin-left: 1600px;
+  }
+}
 
-
-
-
-
-
-
+.guy img {
+  visibility: visible;
+  width: 515px;
+  height: 343px;
+  margin-top: 33%;
+  position: absolute;
+  margin-left: 72%;
+}

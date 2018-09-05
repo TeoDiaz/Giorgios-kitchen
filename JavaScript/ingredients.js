@@ -1,38 +1,54 @@
-
-var images = [
-  {img: "images/ingredientes/aguacate.png"},
-  {img: "images/ingredientes/banana.png"},
-  {img: "images/ingredientes/baston.png"},
-  {img: "images/ingredientes/berenjena.png"},
-  {img: "images/ingredientes/brocoli2.png"},
-  {img: "images/ingredientes/camaron.png"},
-  {img: "images/ingredientes/carne.png"},
-  {img: "images/ingredientes/cebolla.png"},
-  {img: "images/ingredientes/coco.png"},
-  {img: "images/ingredientes/coque.png"},
-  {img: "images/ingredientes/filete.png"},
-  {img: "images/ingredientes/fresa2.png"},
-  {img: "images/ingredientes/huevo.png"},
-  {img: "images/ingredientes/jengibre.png"},
-  {img: "images/ingredientes/langosta.png"},
-  {img: "images/ingredientes/lechuga.png"},
-  {img: "images/ingredientes/limon.png"},
-  {img: "images/ingredientes/manzana.png"},
-  {img: "images/ingredientes/naranja.png"},
-  {img: "images/ingredientes/pepperoni.png"},
-  {img: "images/ingredientes/pescado.png"},
-  {img: "images/ingredientes/pescado2.png"},
-  {img: "images/ingredientes/pimienta.png"},
-  {img: "images/ingredientes/pizza.png"},
-  {img: "images/ingredientes/piña.png"},
-  {img: "images/ingredientes/queso.png"},
-  {img: "images/ingredientes/queso2.png"},
-  {img: "images/ingredientes/seta.png"},
-  {img: "images/ingredientes/tocino.png"},
-  {img: "images/ingredientes/tomate.png"},
-  {img: "images/ingredientes/zanahoria.png"},
-
-
-
-
+var ingredients = [
+  "aguacate",
+  "tomate",
+  "peperoni",
+  "queso",
+  "tocino",
+  "piña",
+  "manazana",
+  "seta",
+  "limon",
+  "seta",
+  "zanahoria",
+  "lechuga",
+  "banana",
+  "naranaja",
+  "baston",
+  "berenjena",
+  "brocoli",
+  "camaron",
+  "cebolla",
+  "coco",
+  "comida4",
+  "filete",
+  "fresa",
+  "huevo",
+  "jengibre",
+  "langosta",
+  "maiz",
+  "naranja",
+  "maiz",
+  "pizza",
+  "pimienta"
 ];
+
+var peperoniPizza = ["pepperoni", "queso", "tocino", "manzana", "tomate"];
+var veggiePizza = ["seta", "piña", "manzana", "zanahoria", "lechuga", "tomate"];
+var diabolaPizza = ["queso", "pepperoni", "pimienta", "zanahoria", "seta"];
+var tunaPizza = ["pescado", "queso", "piña", "tomate"];
+var allInPizza = [
+  "tocino",
+  "queso",
+  "tomate",
+  "pepperoni",
+  "piña",
+  "limon",
+  "seta",
+  "manzana",
+  "zanahoria"
+];
+var arrPizzas = [peperoniPizza,veggiePizza,diabolaPizza,tunaPizza,allInPizza]
+
+function getImageFromIngredient(ingredient) {
+  return "images/ingredientes/" + ingredient + ".png";
+}
