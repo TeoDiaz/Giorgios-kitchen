@@ -1,0 +1,32 @@
+.game-page {
+  position: relative;
+  background-image: url("../images/pizza-final.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+.score,
+.cocinero,
+.cinta,
+.cinta img,
+#ingre img,
+#cinta img,
+#caja-pizza,
+.visible,
+.ingredients,
+.guy img,
+h3,
+#carne,
+#carne img,
+#picante,
+#picante img,
+#boletus,
+#boletus img,
+#tuna,
+#tuna img,
+#diabola,
+#diabola img {
+  display: none;
+}

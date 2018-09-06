@@ -1,5 +1,4 @@
-var ingredients = [
-  "aguacate",
+var ingredientsPizza = [
   "tomate",
   "pepperoni",
   "queso",
@@ -7,46 +6,71 @@ var ingredients = [
   "piña",
   "manzana",
   "seta",
-  "limon",
+  "seta",
   "zanahoria",
   "lechuga",
-  "banana",
+  "pimienta",
+  "pescado"
+];
+var ingredients = [
+  "aguacate",
+  "limon",
   "naranja",
-  "berenjena",
+  "jengibre",
   "brocoli",
   "camaron",
-  "cebolla",
   "coco",
   "filete",
   "fresa",
   "huevo",
-  "jengibre",
-  "langosta",
+  "banana",
   "maiz",
-  "naranja",
-  "maiz",
-  "pizza",
-  "pimienta",
-  "pescado",
-
+  "pizza"
 ];
 
-var peperoniPizza = ["picante","pepperoni", "queso", "tocino", "manzana", "tomate"];
-var veggiePizza = ["boletus","seta", "piña", "manzana", "zanahoria", "lechuga", "tomate"];
-var diabolaPizza = ["diabola","queso", "pepperoni", "pimienta", "zanahoria", "seta"];
-var tunaPizza = ["tuna","pescado", "queso", "piña", "tomate"];
+var peperoniPizza = [
+  "picante",
+  "pepperoni",
+  "queso",
+  "tocino",
+  "manzana",
+  "tomate"
+];
+var veggiePizza = [
+  "boletus",
+  "seta",
+  "piña",
+  "manzana",
+  "zanahoria",
+  "ensalada",
+  "tomate"
+];
+var diabolaPizza = [
+  "diabola",
+  "queso",
+  "pepperoni",
+  "pimienta",
+  "zanahoria",
+  "seta"
+];
+var tunaPizza = ["tuna", "pescado", "queso", "piña", "tomate"];
 var allInPizza = [
   "carne",
   "tocino",
   "queso",
-  "tomate",
   "pepperoni",
   "piña",
   "seta",
   "manzana",
   "zanahoria"
 ];
-var arrPizzas = [peperoniPizza,veggiePizza,diabolaPizza,tunaPizza,allInPizza]
+var arrPizzas = [
+  peperoniPizza,
+  veggiePizza,
+  diabolaPizza,
+  tunaPizza,
+  allInPizza
+];
 
 function getImageFromIngredient(ingredient) {
   return "images/ingredientes/" + ingredient + ".png";

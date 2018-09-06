@@ -24,16 +24,33 @@ window.onload = function() {
       checkWinner();
       count++;
     }
+    var selectedIngr = [];
+    var counter = 0;
     function printRandomImg() {
       var num = Math.floor(Math.random() * ingredients.length);
-      var idImg = ingredients[num];
-      $("<img>")
-        .attr({
-          class: "ingredients",
-          id: idImg,
-          src: randomIng(ingredients[num])
-        })
-        .appendTo("#ingre");
+      var num2 = Math.floor(Math.random()*ingredientsPizza.length)
+      var idImg = ingredientsPizza[num2];
+      if (!selectedIngr.includes(idImg) && counter%3!=0) {
+        console.log("entra")
+        $("<img>")
+          .attr({
+            class: "ingredients",
+            id: idImg,
+            src: randomIng(ingredientsPizza[num2])
+          })
+          .appendTo("#ingre");
+          counter++
+      }else if(counter%3==0){
+        console.log("entra en el malo");
+        $("<img>")
+          .attr({
+            class: "ingredients",
+            id: idImg,
+            src: randomIng(ingredients[num])
+          })
+          .appendTo("#ingre");
+          counter++;
+      }
     }
 
     function randomIng(ele) {
@@ -46,7 +63,7 @@ window.onload = function() {
         count = 3;
       }
     }
-    var selectedIngr = [];
+
     function makeDesappear() {
       var elemClick = $(".ingredients:hover");
       elemClick.click(function() {
@@ -70,14 +87,16 @@ window.onload = function() {
               pescado.play();
             } else if (imgId == "manzana") {
               manzana.play();
-            }else if(imgId== "pepperoni"){
+            } else if (imgId == "pepperoni") {
               pepperoni.play();
-            }else if(imgId=="ensalada"){
+            } else if (imgId == "ensalada") {
               insalata.play();
-            }else if(imgId=="tomate"){
+            } else if (imgId == "tomate") {
               pomodoro.play();
-            }else if(imgId=="tocino"){
+            } else if (imgId == "tocino") {
               tocino.play();
+            } else if (imgId == "piña") {
+              piña.play();
             }
           }
         } else if (imgId == "pizza") {
@@ -87,15 +106,23 @@ window.onload = function() {
           $(".score").html("Ganancias: " + money + " $");
         } else {
           cosaFai.play();
-          money--;
-          $(".score").html("Ganancias: " + money + " $");
+          if (money == 0) {
+            $(".score").html("Ganancias: " + money + " $");
+          } else {
+            money--;
+            $(".score").html("Ganancias: " + money + " $");
+          }
         }
       });
     }
+
     function checkWinner() {
       if (selectedIngr.length == takePizza.length - 1) {
         complimenti.play();
-        console.log("you win");
+        var link = document.createElement("link");
+        link.rel = "stylesheet";
+        link.href = "style/final.css";
+        document.head.appendChild(link);
       }
     }
   });

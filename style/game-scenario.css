@@ -1,19 +1,7 @@
-.title {
-  display: none;
-}
-
-.pizza-start {
-  display: none;
-}
-
-.pizarra img {
-  display: none;
-}
-
-.pizarra p {
-  display: none;
-}
-
+.title,
+.pizza-start,
+.pizarra img,
+.pizarra p,
 .pizarra ul {
   display: none;
 }
@@ -31,7 +19,7 @@
   height: 100vh;
 }
 
-.score{
+.score {
   font-size: 51px;
   width: 228px;
   height: 51px;
@@ -82,8 +70,8 @@
 
 .ingredients:hover {
   width: 160px;
-  margin-top:-100px;
-  margin-left:-20px;
+  margin-top: -100px;
+  margin-left: -20px;
 }
 
 @keyframes ingredients {
