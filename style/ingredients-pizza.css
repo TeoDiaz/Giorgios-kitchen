@@ -32,16 +32,16 @@
 
 .ingre-tomate.visible {
   visibility: visible;
-  margin-top: 490px;
+  margin-top: 390px;
   margin-left: 990px;
 }
 
 .ingre-zanahoria.visible {
   visibility: visible;
   width: 71px;
-  margin-top: 500px;
+  margin-top: 473px;
   position: absolute;
-  margin-left: 1000px;
+  margin-left: 1056px;
 }
 
 .ingre-piña.visible {
@@ -71,7 +71,7 @@
 .ingre-manzana.visible {
   visibility: visible;
   width: 71px;
-  margin-top: 480px;
+  margin-top: 390px;
   position: absolute;
   margin-left: 1122px;
 }
@@ -103,7 +103,7 @@
 .ingre-lechuga.visible {
   visibility: visible;
   width: 71px;
-  margin-top: 300px;
+  margin-top: 400px;
   position: absolute;
   margin-left: 1100px;
 }
