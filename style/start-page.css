@@ -11,26 +11,6 @@
   margin-left: 40%;
 }
 
-#all-in,
-#pepperoni,
-#veggie,
-#tuna,
-#diabola {
-  position: absolute;
-  width: 17%;
-  height: 1%;
-  visibility: hidden;
-}
-
-#all-in img,
-#pepperoni img,
-#veggie img,
-#tuna img,
-#diabola img {
-  width: 10px;
-  height: 10px;
-}
-
 .pizarra {
   width: 100%;
 }
@@ -108,52 +88,4 @@
   visibility: hidden;
   width: 10px;
   height: 10px;
-}
-
-#outer-dropzone {
-  height: 140px;
-}
-
-#inner-dropzone {
-  height: 80px;
-}
-
-.dropzone {
-  background-color: #ccc;
-  border: dashed 4px transparent;
-  border-radius: 4px;
-  margin: 10px auto 30px;
-  padding: 10px;
-  width: 80%;
-  transition: background-color 0.3s;
-}
-
-.drop-active {
-  border-color: #aaa;
-}
-
-.drop-target {
-  background-color: #29e;
-  border-color: #fff;
-  border-style: solid;
-}
-
-.drag-drop {
-  display: inline-block;
-  min-width: 40px;
-  padding: 2em 0.5em;
-
-  color: #fff;
-  background-color: #29e;
-  border: solid 2px #fff;
-
-  -webkit-transform: translate(0px, 0px);
-  transform: translate(0px, 0px);
-
-  transition: background-color 0.3s;
-}
-
-.drag-drop.can-drop {
-  color: #000;
-  background-color: #4e4;
 }

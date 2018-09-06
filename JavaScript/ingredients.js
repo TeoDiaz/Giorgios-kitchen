@@ -8,12 +8,10 @@ var ingredients = [
   "manzana",
   "seta",
   "limon",
-  "seta",
   "zanahoria",
   "lechuga",
   "banana",
   "naranja",
-  "baston",
   "berenjena",
   "brocoli",
   "camaron",
@@ -28,20 +26,22 @@ var ingredients = [
   "naranja",
   "maiz",
   "pizza",
-  "pimienta"
+  "pimienta",
+  "pescado",
+
 ];
 
-var peperoniPizza = ["pepperoni", "queso", "tocino", "manzana", "tomate"];
-var veggiePizza = ["seta", "piña", "manzana", "zanahoria", "lechuga", "tomate"];
-var diabolaPizza = ["queso", "pepperoni", "pimienta", "zanahoria", "seta"];
-var tunaPizza = ["pescado", "queso", "piña", "tomate"];
+var peperoniPizza = ["picante","pepperoni", "queso", "tocino", "manzana", "tomate"];
+var veggiePizza = ["boletus","seta", "piña", "manzana", "zanahoria", "lechuga", "tomate"];
+var diabolaPizza = ["diabola","queso", "pepperoni", "pimienta", "zanahoria", "seta"];
+var tunaPizza = ["tuna","pescado", "queso", "piña", "tomate"];
 var allInPizza = [
+  "carne",
   "tocino",
   "queso",
   "tomate",
   "pepperoni",
   "piña",
-  "limon",
   "seta",
   "manzana",
   "zanahoria"

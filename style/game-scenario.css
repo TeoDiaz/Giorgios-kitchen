@@ -31,6 +31,15 @@
   height: 100vh;
 }
 
+.score{
+  font-size: 51px;
+  width: 228px;
+  height: 51px;
+  color: white;
+  margin-left: 74%;
+  text-align: center;
+}
+
 .cocinero {
   display: inline-block;
   width: 301px;
@@ -72,7 +81,9 @@
 }
 
 .ingredients:hover {
-  width: 140px;
+  width: 160px;
+  margin-top:-100px;
+  margin-left:-20px;
 }
 
 @keyframes ingredients {

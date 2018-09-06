@@ -4,7 +4,7 @@
   width: 301px;
   position: absolute;
   margin-left: 900px;
-  margin-top: 394px;
+  margin-top: 360px;
   width: 370px;
 }
 
@@ -17,36 +17,37 @@
 .ingre-manzana,
 .ingre-tocino,
 .ingre-pepperoni,
-.ingre-pescado {
+.ingre-pescado,
+.ingre-lechuga {
   visibility: hidden;
   width: 71px;
-  margin-top: 560px;
   position: absolute;
   margin-left: 980px;
 }
 
 .ingre-queso.visible {
   visibility: visible;
+  margin-top: 525px;
 }
 
 .ingre-tomate.visible {
   visibility: visible;
-  margin-top: 510px;
+  margin-top: 490px;
   margin-left: 990px;
 }
 
 .ingre-zanahoria.visible {
   visibility: visible;
   width: 71px;
-  margin-top: 515px;
+  margin-top: 500px;
   position: absolute;
-  margin-left: 1060px;
+  margin-left: 1000px;
 }
 
 .ingre-piña.visible {
   visibility: visible;
   width: 71px;
-  margin-top: 520￼px;
+  margin-top: 520px;
   position: absolute;
   margin-left: 1150px;
 }
@@ -54,7 +55,7 @@
 .ingre-seta.visible {
   visibility: visible;
   width: 71px;
-  margin-top: 520￼px;
+  margin-top: 520px;
   position: absolute;
   margin-left: 1050px;
 }
@@ -70,7 +71,7 @@
 .ingre-manzana.visible {
   visibility: visible;
   width: 71px;
-  margin-top: 491px;
+  margin-top: 480px;
   position: absolute;
   margin-left: 1122px;
 }
@@ -78,7 +79,7 @@
 .ingre-tocino.visible {
   visibility: visible;
   width: 71px;
-  margin-top: 520￼px;
+  margin-top: 520px;
   position: absolute;
   margin-left: 1100px;
 }
@@ -86,15 +87,23 @@
 .ingre-pepperoni.visible {
   visibility: visible;
   width: 71px;
-  margin-top: 530￼px;
+  margin-top: 463px;
   position: absolute;
-  margin-left: 1400px;
+  margin-left: 1043px;
 }
 
 .ingre-pescado.visible {
   visibility: visible;
   width: 71px;
-  margin-top: 480￼px;
+  margin-top: 480px;
   position: absolute;
   margin-left: 1300px;
+}
+
+.ingre-lechuga.visible {
+  visibility: visible;
+  width: 71px;
+  margin-top: 300px;
+  position: absolute;
+  margin-left: 1100px;
 }
