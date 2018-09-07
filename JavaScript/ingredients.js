@@ -8,7 +8,7 @@ var ingredientsPizza = [
   "seta",
   "seta",
   "zanahoria",
-  "lechuga",
+  "ensalada", 
   "pimienta",
   "pescado"
 ];
