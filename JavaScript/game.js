@@ -10,7 +10,7 @@ window.onload = function() {
     var takePizza = arrPizzas[Math.floor(Math.random() * arrPizzas.length)];
     $("#" + takePizza).attr("style", "visibility: visible");
 
-   var myInter = setInterval(function() {
+    var myInter = setInterval(function() {
       startGame();
     }, 1000);
 
@@ -30,6 +30,7 @@ window.onload = function() {
       var num = Math.floor(Math.random() * ingredients.length);
       var num2 = Math.floor(Math.random() * ingredientsPizza.length);
       var idImg = ingredientsPizza[num2];
+      var idImgNo = ingredients[num];
       if (!selectedIngr.includes(idImg) && counter % 3 != 0) {
         $("<img>")
           .attr({
@@ -43,7 +44,7 @@ window.onload = function() {
         $("<img>")
           .attr({
             class: "ingredients",
-            id: idImg,
+            id: idImgNo,
             src: randomIng(ingredients[num])
           })
           .appendTo("#ingre");
@@ -56,9 +57,9 @@ window.onload = function() {
     }
 
     function removeIngr() {
-      if (count == 5) {
+      if (count == 7) {
         $("#ingre img:first").remove();
-        count = 3;
+        count = 2;
       }
     }
 
@@ -68,7 +69,6 @@ window.onload = function() {
         var imgId = $(elemClick).attr("id");
         if (takePizza.includes(imgId)) {
           $("#" + imgId).remove();
-          console.log(imgId);
           $(".ingre-" + imgId).addClass("visible");
           money++;
           $(".score").html("Ganancias: " + money + " $");

@@ -24,7 +24,7 @@ var ingredients = [
   "huevo",
   "banana",
   "maiz",
-  "pizza"
+  "pizza" 
 ];
 
 var peperoniPizza = [

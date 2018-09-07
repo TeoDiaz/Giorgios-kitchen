@@ -81,7 +81,7 @@
 }
 
 .guy {
-  visibility: hidden;
+  visibility: visible;
   background-image: url("../images/guy 2.png");
   background-size: cover;
   width: 393px;
