@@ -30,3 +30,17 @@ h3,
 #diabola img {
   display: none;
 }
+
+.final-text{
+  display: block;
+  font-size: 65px;
+  color: #42cc82;
+  position: absolute;
+  text-align: center;
+  margin-left: 57%;
+  margin-top: 7%;
+}
+
+.final-text p{
+  padding-bottom: 50px; 
+}

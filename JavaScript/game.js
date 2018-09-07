@@ -9,9 +9,8 @@ window.onload = function() {
 
     var takePizza = arrPizzas[Math.floor(Math.random() * arrPizzas.length)];
     $("#" + takePizza).attr("style", "visibility: visible");
-    console.log(takePizza);
 
-    setInterval(function() {
+   var myInter = setInterval(function() {
       startGame();
     }, 1000);
 
@@ -32,7 +31,6 @@ window.onload = function() {
       var num2 = Math.floor(Math.random() * ingredientsPizza.length);
       var idImg = ingredientsPizza[num2];
       if (!selectedIngr.includes(idImg) && counter % 3 != 0) {
-        console.log("entra");
         $("<img>")
           .attr({
             class: "ingredients",
@@ -42,7 +40,6 @@ window.onload = function() {
           .appendTo("#ingre");
         counter++;
       } else if (counter % 3 == 0) {
-        console.log("entra en el malo");
         $("<img>")
           .attr({
             class: "ingredients",
@@ -71,6 +68,7 @@ window.onload = function() {
         var imgId = $(elemClick).attr("id");
         if (takePizza.includes(imgId)) {
           $("#" + imgId).remove();
+          console.log(imgId);
           $(".ingre-" + imgId).addClass("visible");
           money++;
           $(".score").html("Ganancias: " + money + " $");
@@ -119,6 +117,7 @@ window.onload = function() {
 
     function checkWinner() {
       if (selectedIngr.length == takePizza.length - 1) {
+        clearInterval(myInter);
         complimenti.play();
         var link = document.createElement("link");
         link.rel = "stylesheet";

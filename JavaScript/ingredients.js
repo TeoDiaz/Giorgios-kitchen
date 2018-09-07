@@ -6,7 +6,6 @@ var ingredientsPizza = [
   "piña",
   "manzana",
   "seta",
-  "seta",
   "zanahoria",
   "ensalada", 
   "pimienta",

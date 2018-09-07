@@ -80,11 +80,19 @@
   }
 }
 
-.guy img {
-  visibility: visible;
-  width: 515px;
-  height: 343px;
-  margin-top: 33%;
+.guy {
+  visibility: hidden;
+  background-image: url("../images/guy 2.png");
+  background-size: cover;
+  width: 393px;
+  height: 399px;
+  margin-top: -22%;
   position: absolute;
-  margin-left: 72%;
+  margin-left: 78%;
+  position: absolute;
+  background-repeat: no-repeat;
+}
+
+.final-text{
+  display: none;
 }

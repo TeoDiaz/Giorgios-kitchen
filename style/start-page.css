@@ -5,10 +5,18 @@
 
 .title {
   position: absolute;
-  text-align: center;
-  color: white;
-  margin-top: 2%;
-  margin-left: 40%;
+    text-align: center;
+    background-image: url(../images/cool.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 0%;
+    margin-left: 18%;
+    width: 63%;
+    height: 16%;
+}
+
+.final-text {
+  display:none;
 }
 
 .pizarra {

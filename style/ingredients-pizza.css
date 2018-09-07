@@ -18,7 +18,7 @@
 .ingre-tocino,
 .ingre-pepperoni,
 .ingre-pescado,
-.ingre-lechuga {
+.ingre-ensalada {
   visibility: hidden;
   width: 71px;
   position: absolute;
@@ -100,7 +100,7 @@
   margin-left: 1080px;
 }
 
-.ingre-lechuga.visible {
+.ingre-ensalada.visible {
   visibility: visible;
   width: 71px;
   margin-top: 400px;
