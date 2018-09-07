@@ -3,7 +3,9 @@
 
 <p align="center">Juego creado en 4 dias exactos, con diferentes intentos de varias acciones, como el DRAG & DROP.<br> Al final no lo consegui implementar como yo quise. Y lo que hice fue un evento click</p>
 
-<p> </p>
+<p align="center">
+<a href="https://teodiaz.github.io/Giorgios-kitchen/">Giorgio's Kitchen</a>
+</p>
 <p align="center">Una parte mas dificil fue conseguir que los alimentos no saliesen totalmente aleatorios y al final<br>
 hice unas condiciones para que fuesen 2 ingredientes que estan en la pizza y 1 que no.</p>
 
