@@ -114,7 +114,6 @@ window.onload = function() {
         }
       });
     }
-
     function checkWinner() {
       if (selectedIngr.length == takePizza.length - 1) {
         clearInterval(myInter);
