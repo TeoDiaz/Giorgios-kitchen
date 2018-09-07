@@ -1,7 +1,9 @@
+<p align="center"><img src ="https://github.com/TeoDiaz/Giorgios-kitchen/blob/master/images/chicote-giorgio.png" width="500" hight="500"></img>
+</p>
 
 <p align="center">Juego creado en 4 dias exactos, con diferentes intentos de varias acciones, como el DRAG & DROP.<br> Al final no lo consegui implementar como yo quise. Y lo que hice fue un evento click</p>
 
-
+<p> </p>
 <p align="center">Una parte mas dificil fue conseguir que los alimentos no saliesen totalmente aleatorios y al final<br>
 hice unas condiciones para que fuesen 2 ingredientes que estan en la pizza y 1 que no.</p>
 
